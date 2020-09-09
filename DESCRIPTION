@@ -1,0 +1,24 @@
+Package: shoesRus
+Title: A database of shoe scans 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Eryn",
+           family = "Blagg",
+           role = c("aut", "cre"),
+           email = "eblagg@iastate.edu")
+Description: This package contains a information about shoes scan in order measure the wear between two shoe scans. These scans contain the following information: 
+file name the name of the stl files 
+date in the form of Year-Month-Day in which the scan was taken 
+side the side of the shoe, R or L
+brand the brand of the shoe
+scan_no the integer scan number
+mesh a list containing the mesh object of the 3d shoe scan 
+
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Depends: 
+    R (>= 2.10)
